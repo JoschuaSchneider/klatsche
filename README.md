@@ -2,6 +2,8 @@
 
 Gives you a ⚡️ blazingly-fast ⚡️ slap on the wrist if you forget to use your terminal aliases.
 
+![Usage example](.github/resources/klatsche_example.png)
+
 ## Installation
 
 ### Prerequisites
