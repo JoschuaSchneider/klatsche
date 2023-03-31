@@ -1,0 +1,11 @@
+[package]
+name = "klatsche"
+description = "notify about possible alias usage in zsh preexec hook"
+version = "0.1.0"
+edition = "2021"
+authors = ["Joschua Schneider <schneider@joschua.dev>"]
+license = "MIT"
+repository = "https://github.com/JoschuaSchneider/klatsche/"
+
+[dependencies]
+colored = "2.0.0"
