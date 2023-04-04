@@ -1,5 +1,5 @@
 function preexec_check_klatsche() {
-  alias | ./target/release/klatsche "$1"
+  alias | "${KLATSCHE_HOME}"/target/release/klatsche "$1"
 }
 
 autoload -Uz add-zsh-hook

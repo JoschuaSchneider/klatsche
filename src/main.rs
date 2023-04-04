@@ -14,7 +14,6 @@ fn main() {
         TODO: Expand already used aliases to give better hints
         "g status" -> "git status" -> use gst instead
      */
-
     let mut last_command_size: usize = 0;
     let mut most_relevant_alias: Option<Alias> = None;
 

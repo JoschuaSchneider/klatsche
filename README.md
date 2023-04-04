@@ -20,6 +20,11 @@ cargo build --release
 
 ### Installing ZSH plugin
 
+Set the `KLATSCHE_HOME` env variable in your `.zshrc` file:
+```bash
+KLATSCHE_HOME=/Path/to/klatsche
+```
+
 #### Install using `zmodule`
 
 Add the following to your `.zimfw` file:
