@@ -12,18 +12,21 @@ Gives you a ⚡️ blazingly-fast ⚡️ slap on the wrist if you forget to use 
 - `zsh` installed and configured
 - optional: `zimfw` setup for use with `zmodule`
 
-### Building
+### Install from crates.io
+
+```bash
+cargo install klatsche
+```
+
+### Build from source
+
 Clone the repository and run:
+
 ```bash
 cargo build --release
 ```
 
 ### Installing ZSH plugin
-
-Set the `KLATSCHE_HOME` env variable in your `.zshrc` file:
-```bash
-KLATSCHE_HOME=/Path/to/klatsche
-```
 
 #### Install using `zmodule`
 
@@ -33,18 +36,22 @@ Add the following to your `.zimfw` file:
 zmodule /Path/to/klatsche --source klatsche.zsh
 ```
 
-Run `zimfw install` and restart terminal session.
-
-#### Install using `source`
-
-Add the following to your `.zshrc` file:
+When building from source, set the `KLATSCHE_HOME` env variable in your `.zshrc` file:
 
 ```bash
-source /Path/to/klatsche/klatsche.zsh
+KLATSCHE_HOME=/Path/to/klatsche
 ```
+
+and then add the following to your `.zimfw` file:
+
+```bash
+zmodule /Path/to/klatsche --source klatsche_from_source.zsh
+```
+
+Run `zimfw install` and restart terminal session.
 
 Restart terminal session.
 
 ## Usage
 
-Type any long form of an alias, you get a *slap*  in the terminal 🎉
+Type any long form of an alias, you get a _slap_ in the terminal 🎉

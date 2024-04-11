@@ -1,7 +1,7 @@
 [package]
 name = "klatsche"
-description = "notify about possible alias usage in zsh preexec hook"
-version = "0.1.0"
+description = "cli tool to parse and rank known terminal aliases against a given command, intended to be used as a preexec hook for zsh"
+version = "1.0.1"
 edition = "2021"
 authors = ["Joschua Schneider <schneider@joschua.dev>"]
 license = "MIT"
